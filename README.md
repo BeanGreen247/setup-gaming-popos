@@ -46,7 +46,7 @@ Automate the setup of a gaming-ready Pop!_OS system with popular tools, performa
 3. Run the script as root:
 
    ```bash
-   sudo ./setup-gaming.sh
+   sudo bash setup-gaming-popos.sh
    ```
 
 4. Reboot if necessary (drivers, kernel, or major package updates).
@@ -56,7 +56,7 @@ Automate the setup of a gaming-ready Pop!_OS system with popular tools, performa
 * If packages are skipped, run:
 
   ```bash
-  sudo apt update && sudo ./setup-gaming.sh
+  sudo apt update && sudo bash setup-gaming-popos.sh
   ```
 * To use WineHQ (Wine + vkd3d packaged builds), set `INSTALL_WINEHQ=true` and re-run the script.
 * Flatpak is installed automatically if ProtonUp-Qt is enabled.
